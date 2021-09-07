@@ -3,8 +3,12 @@
 Examples for crawling and preprocessing corpora for conflict study.
 
 /Crawlers: contains example crawlers for two types of sources.
-- News wires
-- Organizations
+- News wires by their sitemaps. We combined both Newspaper3k and manually specific patterns with beautifulsoup .
+- Organizations: 
+    - UN websites:  UN News, UNHCR, UNODC, OHCHR
+    - Refword:      Amnesty, USCRI, Immigration and Refugee Board of Canada (IRB)
+    - NGO:          Amnesty, HRW.org, New Humanitarian, Rescue.org,  PHR.org
+    - Others:       CFR.org, FRUS
     
 /Preprocess: Preprocessing pipelines for five different types of sources. Cleaning and filtering stories in conflicts domain.
 - News wires
