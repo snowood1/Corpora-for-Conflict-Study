@@ -16,6 +16,8 @@ Examples for crawling and preprocessing corpora for conflict study.
 - [Gigaword](https://catalog.ldc.upenn.edu/LDC2011T07)
 - Phoenix Real-Time from [the paper](https://ieeexplore.ieee.org/abstract/document/8910051)
 - [Wikipedia](https://dumps.wikimedia.org/)
+   - wikiextractor: Modified from [the orignal wikiextractor](https://github.com/attardi/wikiextractor) to output both contexts and categories.
+   - df_query.csv: Related categories queried from https://petscan.wmflabs.org/
 
 **./Patterns**: statistically summarized the most frequent keywords’ regular expressions to filter conflicts domain.
 - wiki_relevant: &emsp; patterns for filtering relevant news wires
